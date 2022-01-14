@@ -1,3 +1,39 @@
+#landingscreen {
+    height: 100vh;
+    background-image: url("images/landing.png");
+    background-position-x: center;
+    background-position-y: 10%;
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+
+}
+
+#landingscreen button {
+    font-size: 45px;
+    padding: 12px 37px;
+    /*
+    padding-right: 65px; /* original padding + star width + some margin */
+    /*
+	background-image: url(images/star.svg);
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: auto 45px;
+    */
+}
+#landingscreen a button img {
+    height: 45px;
+    vertical-align: baseline;
+    
+}
+
+#landingscreen a button {
+    margin-top: 67vh;
+}
+
+
+
 #cookingculture, #spirituality, #festivities {
     color: white;
     background-size: cover;

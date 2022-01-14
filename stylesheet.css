@@ -25,6 +25,12 @@ h2 a:active {
 	color: #AD1912;
 }
 
+button {
+	color: white;
+	background-color: #AD1912;
+	border-radius: 50px;
+}
+
 nav a:link, nav a:visited {
 	color: white;
 }
