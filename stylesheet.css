@@ -1,36 +1,78 @@
 @charset "utf-8";
 /* CSS Document */
-h1
-{
-	font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-}
+
 body
 {
 	font-family:Georgia, Constantia, "Lucida Bright", "DejaVu Serif", "serif";
+	margin: 0;
 }
-ul
+h1, h2
 {
 	
+	font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
-nav ul a
-{
-	float:left;
-	list-style:none;
-	margin-left:10px;
+h1 {
+	margin: 0;
+	text-decoration: underline;
 }
-nav ul
-{
-	float:right;
-	margin-top:0px;
-	margin-bottom:0px;
+
+a:link, a:visited {
+	color: white;
 }
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Start header & footer */
+header, footer {
+	color: white;
+	background-color: #AD1912;
+	position:relative;
+	padding: 25px;
+}
+
+/* Stick to top right of header */
 #createdby
 {
 	position:absolute;
-	top:0px;
-	right:0px;
+	top: 8px;
+	right: 8px;
 }
-#topbar
+
+#toplefttext {
+	display: inline-block;
+	text-align: center;
+}
+#toplefttext h1 {
+	display: inline;
+}
+
+nav {
+	margin-top: 2px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul
 {
-	position:relative;
+	margin-top: 0px;
+	margin-bottom:0px;
+	height: 25px;
+	padding: 0px;
+}
+nav ul *
+{
+	float:left;
+	list-style:none;
+	margin-right: 5px;
+}
+
+/* Complete header & footer */
+
+main {
+	/* Stop float */
+	clear: both;
 }
