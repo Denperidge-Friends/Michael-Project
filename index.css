@@ -32,13 +32,12 @@
     margin-top: 67vh;
 }
 
-
-
-#cookingculture, #spirituality, #festivities {
-    color: white;
-    background-size: cover;
-    background-position: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+#cookingculture {
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/pexels-marcus-nguyen-980221.jpg);
+}
+#spirituality {
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/pexels-marcus-nguyen-980221.jpg);
+}
+#festivities {
     background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/pexels-marcus-nguyen-980221.jpg);
 }
