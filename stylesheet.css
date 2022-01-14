@@ -32,6 +32,10 @@ button {
 	border-radius: 50px;
 }
 
+.blacktext {
+	color: black;
+}
+
 nav a:link, nav a:visited {
 	color: white;
 }
