@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+h1
+{
+	font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+body
+{
+	font-family:Georgia, Constantia, "Lucida Bright", "DejaVu Serif", "serif";
+}
+ul
+{
+	
+}
+nav ul a
+{
+	float:left;
+	list-style:none;
+	margin-left:10px;
+}
+nav ul
+{
+	float:right;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#createdby
+{
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#topbar
+{
+	position:relative;
+}
