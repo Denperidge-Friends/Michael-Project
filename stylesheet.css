@@ -16,28 +16,29 @@ h1 {
 	text-decoration: underline;
 }
 
-a:link, a:visited {
+nav a:link, nav a:visited {
 	color: white;
 }
 
-a:hover {
+nav a:hover {
 	text-decoration: underline;
 }
 
 /* Start header & footer */
 header, footer {
-	color: white;
-	background-color: #AD1912;
 	position:relative;
 	padding: 25px;
-}
 
-/* Stick to top right of header */
-#createdby
-{
-	position:absolute;
-	top: 8px;
-	right: 8px;
+	color: white;
+	background-color: #AD1912;
+
+	background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0,0.3)), url("images/pexels-david-peterson-344754.jpg");
+	background-position-x: 0;
+	background-position-y: 40%;
+	background-size: cover;
+}
+footer {
+	background-position-y: 80%;
 }
 
 #toplefttext {
@@ -68,6 +69,18 @@ nav ul *
 	float:left;
 	list-style:none;
 	margin-right: 5px;
+}
+
+#copyright {
+	text-align: center;
+}
+
+/* Stick to bottom right of footer */
+#createdby
+{
+	position:absolute;
+	bottom: 8px;
+	right: 8px;
 }
 
 /* Complete header & footer */
