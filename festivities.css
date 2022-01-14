@@ -1,9 +1,10 @@
 #tet-nguyen-dan {
-    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/pexels-marcus-nguyen-980221.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/festivities_lny.jpg);
 }
 #trung-thu {
-    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/pexels-marcus-nguyen-980221.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/festivities_lamps.png);
+    background-position:top
 }
 #thanh-minh {
-    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/pexels-marcus-nguyen-980221.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(images/festivities_dead.jpg);
 }
