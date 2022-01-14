@@ -20,11 +20,11 @@ article img {
 
 .instructions {
     width: 60%;
+    margin-right: 35px;
 }
 
 .ingredients {
     vertical-align: top;
     max-width: 40%;
     margin: auto;
-    margin-left: 35px;
 }
