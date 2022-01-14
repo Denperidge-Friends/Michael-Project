@@ -26,7 +26,7 @@ nav a:hover {
 
 /* Start header & footer */
 header, footer {
-	position:relative;
+	position: sticky;
 	padding: 25px;
 
 	color: white;
@@ -38,6 +38,7 @@ header, footer {
 	background-size: cover;
 }
 footer {
+	position: relative;
 	background-position-y: 80%;
 }
 
@@ -89,3 +90,11 @@ main {
 	/* Stop float */
 	clear: both;
 }
+
+/* > only subelement, not sub-sub-element */
+main > * {
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 25px;
+}
+
